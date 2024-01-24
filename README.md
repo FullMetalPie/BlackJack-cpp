@@ -1,9 +1,9 @@
 # Progetto c++: Black jack
 Sviluppare in C++ uno dei seguenti progetti:
-  - Simulazione del gioco della Briscola (giocatore1 contro giocatore2)
-  - Simulazione di un gioco di carte a vostra scelta (giocatore contro computer)
-  - Simulazione del gioco della Briscola (giocatore contro computer)
-  ✅ Simulazione di un gioco di carte a vostra scelta (giocatore contro computer e giocatore1 contro giocatore2)
+  [] Simulazione del gioco della Briscola (giocatore1 contro giocatore2)
+  [] Simulazione di un gioco di carte a vostra scelta (giocatore contro computer)
+  [] Simulazione del gioco della Briscola (giocatore contro computer)
+  [x] Simulazione di un gioco di carte a vostra scelta (giocatore contro computer e giocatore1 contro giocatore2)
 
 Il progetto può essere svolto individualmente o in coppia, secondo queste modalità:
 - un progetto individuale può essere scelto tra una qualsiasi delle quattro tipologie
