@@ -1,4 +1,4 @@
-#Progetto c++: Black jack
+# Progetto c++: Black jack
 Sviluppare in C++ uno dei seguenti progetti:
   - Simulazione del gioco della Briscola (giocatore1 contro giocatore2)
   - Simulazione di un gioco di carte a vostra scelta (giocatore contro computer)
