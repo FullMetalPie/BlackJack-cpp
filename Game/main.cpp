@@ -1,9 +1,12 @@
 #include <iostream>
-#include "imgui.h"
+#include "../imgui-master/imgui.h"
+#include "../imgui-master/imconfig.h"
+#include "../imgui-master/backends/imgui_impl_opengl3.h"
+#include "../imgui-master/backends/imgui_impl_sdl2.h"
 
 using namespace std;
 
 int main() {
-    cout << "Ciao";
+    ImGui::ShowDemoWindow();
     return 0;
 }
