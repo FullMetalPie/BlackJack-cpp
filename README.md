@@ -1,18 +1,23 @@
-# Progetto c++: Black jack
-Sviluppare in C++ uno dei seguenti progetti:
-  - [ ] Simulazione del gioco della Briscola (giocatore1 contro giocatore2)
-  - [ ] Simulazione di un gioco di carte a vostra scelta (giocatore contro computer)
-  - [ ] Simulazione del gioco della Briscola (giocatore contro computer)
-  - [x] Simulazione di un gioco di carte a vostra scelta (giocatore contro computer e giocatore1 contro giocatore2)
+# C++ project: Black Jack
+Develop one of the following projects in C++:
+- [ ] Simulation of the Briscola game (player1 against player2)
+- [ ] Simulation of a card game of your choice (player versus computer)
+- [ ] Simulation of the Briscola game (player against computer)
+- [x] Simulation of a card game of your choice (player versus computer and player1 versus player2)
 
-Il progetto può essere svolto individualmente o in coppia, secondo queste modalità:
-- un progetto individuale può essere scelto tra una qualsiasi delle quattro tipologie
-- un progetto in coppia può essere scelto solo tra le tipologie 3 e 4
-- deve contenere almeno una classe astratta ed essere implementato mediante array dinamici, allocati in memoria heap tramite l'uso di opportuni puntatori.
-- deve essere implementato secondo le regole di ingegneria del software.
+# Rules
+The project must be developed and submitted following these guidelines.
 
-Consegnare:
-- i sorgenti commentati
-- l'analisi tecnica, con l'UML delle classi coinvolte e delle loro relazioni, la descrizione di attributi e metodi, la spiegazione degli algoritmi utilizzati per implementare la logica di gioco
-- le regole dettagliate del gioco scelto
-- un documento con la scansione dei tempi di lavoro e la suddivisione dei lavori, se il progetto è svolto in coppia. 
+## Development methods
+The project can be carried out individually or in pairs, according to these methods:
+- An individual project can be chosen from any of the four typologies
+- A paired project can only be chosen between types 3 and 4
+- It must contain at least one abstract class and be implemented using dynamic arrays, allocated in heap memory through the use of appropriate pointers.
+- Must be implemented according to software engineering rules
+
+## Submitting the project
+Everything shown here must be submitted:
+- The commented sources
+- The technical analysis, with the UML of the classes involved and their relationships, the description of attributes and methods, the explanation of the algorithms used to implement the game logic
+- The detailed rules of the chosen game
+- A document with a breakdown of the working times and the subdivision of the work, if the project is carried out in pairs.
