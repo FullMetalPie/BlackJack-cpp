@@ -19,6 +19,12 @@ class Deck {
         int getDim();
 
         void setDim(int dim);
+        /*INIZIALIZZA*/
+        void inizializza();
+        /*STAMPA*/
+        void stampa();
+        /*OVERLOADING OPERATORE -*/
+        Deck* operator-(Card c);
 };
 
 #endif
