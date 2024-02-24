@@ -1,11 +1,12 @@
 #include <iostream>
-#include "Card.h"
+#include "PlayerReale.h"
+#include "Deck.h"
 
 using namespace std;
 
 int main() {
-    Card c("diocane", 2, 3);
+    PlayerReale p;
 
-    cout << c;
+    
     return 0;
 }

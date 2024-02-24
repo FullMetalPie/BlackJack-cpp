@@ -8,24 +8,24 @@ using namespace std;
 class Card {
     private:
         string seed;
-        int number;
+        string number;
         int value;
     public:
-        /*COSTRUTTORE e DISTRUTTORE*/
+        /*COSTRUTTORI e DISTRUTTORE*/
         Card();
-        Card(string seed, int number, int value);
+        Card(string seme, string num, int punteggio);
         ~Card();
-        /*SETTER e GETTER*/
-        string getSeed();
-        int getNumber();
-        int getValue();
-
-        void setSeed(string seed);
-        void setNumber(int number);
-        void setValue(int value);
-        void setAll(string seed, int number, int value);
-        /*STAMPA*/
+        /*SETTER e GETTEr*/
+        void setSeme(string seme);
+        void setNumero(string num);
+        void setValore(int punteggio);
+        string getSeme();
+        string getNumero();
+        int getValore();
+        /*OVERLOADING OPERATORE OUTPUT*/
         friend ostream& operator<<(ostream& out, const Card c);
+        /*DISUGUAGLIANZA*/
+        bool operator!=(Card c);
 };
 
 #endif

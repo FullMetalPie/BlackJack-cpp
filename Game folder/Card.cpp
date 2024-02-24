@@ -1,50 +1,52 @@
 #include <iostream>
 #include "Card.h"
 
-/*COSTRUTTORE e DISTRUTTORE*/
+/*COSTRUTTORI e DISTRUTTORE*/
 Card::Card() {
-    seed = "";
-    number = 0;
+    seed = "undefined";
+    number = "0";
     value = 0;
 }
-Card::Card(string seed, int number, int value) {
-    this->seed = seed; 
-    this->number = number;
-    this->value = value;
+Card::Card(string seme, string num, int punteggio) {
+    seed = seme;
+    number = num;
+    value = punteggio;
 }
 Card::~Card() {
 
 }
-/*SETTER e GETTER*/
-string Card::getSeed() {
+/*SETTER e GETTEr*/
+void Card::setSeme(string seme) {
+    seed = seme;
+}
+void Card::setNumero(string num) {
+    number = num;
+}
+void Card::setValore(int punteggio) {
+    value = punteggio;
+}
+string Card::getSeme() {
     return seed;
 }
-int Card::getNumber() {
+string Card::getNumero() {
     return number;
 }
-int Card::getValue() {
+int Card::getValore() {
     return value;
 }
-
-void Card::setSeed(string seed) {
-    this->seed = seed;
-}
-void Card::setNumber(int number) {
-    this->number = number;
-}
-void Card::setValue(int value) {
-    this->value = value;
-}
-void Card::setAll(string seed, int number, int value) {
-    this->seed = seed; 
-    this->number = number;
-    this->value = value;
-}
-/*STAMPA*/
+/*OVERLOADING OPERATORE OUTPUT*/
 ostream& operator<<(ostream& out, const Card c) {
-    out << "Seed: " << c.seed << endl;
-    out << "Number: " << c.number << endl;
-    out << "Value: " << c.value << endl;
+    out << "Seme: " << c.seed << endl;
+    out << "Numero: " << c.number << endl;
+    out << "Valore: " << c.value << endl;
 
     return out;
+}
+/*DISUGUAGLIANZA*/
+bool Card::operator!=(Card c) {
+    if (seed != c.seed && number != c.number && value != c.value) {
+        return true;
+    } else {
+        return false;
+    }
 }
