@@ -7,21 +7,19 @@
 using namespace std;
 
 class Deck {
-    private:
+    protected:
         Card* cardsArray;
         int dim;
     public:
         /*COSTRUTTORE e DISTRUTTORE*/
         Deck();
-        ~Deck();
+        virtual ~Deck();
         /*SETTER e GETTER*/
         int getDim();
 
         void setDim(int dim);
         /*INIZIALIZZA*/
-        void inizializza();
-        /*STAMPA*/
-        void stampa();
+        virtual void inizializza() = 0;
 };
 
 #endif
